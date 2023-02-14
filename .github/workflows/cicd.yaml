@@ -43,4 +43,4 @@ jobs:
           environment_name: ${{ vars.AWS_BEANSTALK_APP_ENV }}
           version_label: ${{ github.sha }}
           region: ap-south-1
-          deployment_package: deploy.zip
+          deployment_package: test-api-0.1-all.jar
